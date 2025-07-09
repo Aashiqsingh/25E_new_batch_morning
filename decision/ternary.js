@@ -32,3 +32,5 @@ console.log(ans);
 
 // let max = (a > b && a > c) ? "A is greatest" : (b > a && b > c) ? "B is greatest" :"C is greatest";
 // console.log(max);
+
+// (a < 2 || b < 5 || c < 7) (OR) an logical operator can we use this
