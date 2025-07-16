@@ -1,0 +1,11 @@
+JSON -- > Javascript object notation
+
+
+json 
+
+var student = {
+    id:1,
+    name:"rahul",
+    age:20,
+    status:true
+}
