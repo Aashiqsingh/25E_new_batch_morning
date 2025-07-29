@@ -50,3 +50,12 @@ There are three keyword. --> scope
 {
     
 }
+
+
+
+Javascript --> single threaded application
+callback
+
+
+
+java --> multi threaded application

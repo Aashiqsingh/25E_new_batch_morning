@@ -1,34 +1,46 @@
-var product = {
-    id:1,
-    name:"IPHONE",
-    price:1000,
-    color:["red","green","blue","white","black"],
-    isAvailable:false,
-    description:{
-        size:"5.5",
-        weight:100,
-        brand:"apple",
-        camera:"108px",
-        ram:"8gb",
-        battery:"5v"
+var employee = {
+    empId:1,
+    name:"harshil",
+    age:25,
+    email:"harshil@gmail.com",
+    status:true,
+    mobile:[9876543210,9876543211,9876543212],
+    address:{
+        city:"ahmedabad",
+        state:"gujarat",
+        country:"india",
+        pincode:380001,
+        street:"c.g road"
     }
 }
 
-// console.log(product);
-// console.log(product.name);
-// console.log(product.price);
-// console.log(product.color);
-// console.log(product.color[0]);
+// console.log(employee);
+// console.log(employee.name);
+// console.log(employee.age);
+// console.log(employee.email);
 
-// for(let i=0;i<product.color.length;i++){
-//     console.log(product.color[i]);
-    
+// console.log(employee.mobile);
+// console.log(employee.mobile[0]);
+
+// for(let i=0;i<employee.mobile.length;i++){
+//     console.log(employee.mobile[i]);
 // }
 
-console.log(product.isAvailable == true ? "Available":"Not Available");
-console.log(product.description);
-console.log(product.description.brand);
-console.log(product.description.camera);
+// console.log(employee.address);
+// console.log(employee.address.city);
+
+// console.log(Math.floor(9.99));
+// console.log(Math.ceil(9.01));
+// console.log(Math.round(9.49));
+
+// console.log(Math.floor(Math.random() * 100));
+console.log(Math.max(10,20,80,40,50));
+console.log(Math.min(10,20,80,1,50));
+
+
+
+
+
 
 
 
