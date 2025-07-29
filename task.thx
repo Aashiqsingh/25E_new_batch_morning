@@ -28,3 +28,45 @@ else if(){
 -----------------------------------
 factorial number
 pallindrome 
+
+
+
+-----------------------------------
+
+var upin : 6354
+fun check(){
+	let avlbal = 40000;
+	return avlbal
+}
+func depos(){
+	Enter your ddeposit amount:
+	mess : deposited successfully:
+	
+	checkbal()
+}
+fun withdra(){
+	Enter amount :
+	if(amount < avlbal)
+	{
+		succefly withdrwa
+		after withdrwa : 30000
+	}
+	else{
+		insuffcient bal
+	}
+}
+Are u enter in atm or not?
+{
+	ENter acco no: 
+	Enter pin : {
+			1. checkbal
+			2. deposit
+			3. withdraw
+		}
+		{
+			Invalid pin
+		}
+}
+{
+	Thankyou for visiting atm.
+}
