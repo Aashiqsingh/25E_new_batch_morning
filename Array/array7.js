@@ -2,6 +2,18 @@ var language = ["hindi","english","french","tamil","telugu","kannada","bengali",
 
 
 
+// let x = language.map((lang)=>{
+//     return lang.toUpperCase()
+// })
+// console.log(x);
+
+// language.forEach((lang)=>{
+//     console.log(lang.toUpperCase());
+    
+// })
+
+
+
 // const deleteLanguage = (langName)=>{
 
 //     let x = language.filter((lang)=>{
@@ -46,4 +58,4 @@ const deleteLanguage = (langName)=> language.filter((lang)=> lang != langName)
 
 
 let ans = deleteLanguage("english")
-console.log(ans);
+// console.log(ans);
