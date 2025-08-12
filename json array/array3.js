@@ -101,3 +101,31 @@ var departments = [
 
 // let x = departments.find((depart)=> depart.name == "Finance").employees.filter((emp)=> emp.age > 40)
 // console.log(x);
+// let x = departments.find((dept)=> dept.name== "IT").employees.filter(emp=> emp.gender === "female")
+// console.log(x);
+
+// let x=departments.find((depart)=>depart.name="IT").employees.filter((emp)=>emp.gender=="female");
+// console.log(x);
+
+// let x = departments
+//     .find(depart => depart.name === "IT")
+//     .employees
+//     .filter(emp => emp.gender === "female");
+// console.log(x);
+
+// let x = departments.map((depart)=> depart.employees.filter((emp)=> emp.gender == "female"))
+// console.log(x);
+
+// let x = departments
+//     .find(depart => depart.name === "IT")
+//     .employees
+//     .filter(emp => emp.gender === "female");
+// console.log(x);
+
+// let x = departments.map((dept)=> dept.employees.filter((emp)=> emp.gender == "female"))
+// console.log(x);
+
+let x = departments
+    .flatMap(depart => depart.employees) 
+    .filter(emp => emp.gender === "female");
+console.log(x);
