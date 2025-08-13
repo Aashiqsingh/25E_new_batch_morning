@@ -121,15 +121,27 @@ var company = [
 
   // List all company names.
 // Extract and display only the companyName fields from the JSON array.
+// let x = company.map((comp)=> comp.companyname)
+// console.log(x)
 
 // Find employees earning more than $80,000.
 // Search through all employees arrays and list employees with a salary greater than 80,000.
+// let x = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 80000))
+// console.log(x)
 
 // Count the total number of employees in all companies.
 // Count the total number of employee objects across all companies.
 
+// let x = company.reduce((count,comp)=> count + comp.employees.length,0)
+// console.log(x);
+
+
 // Find the position of an employee named "Emily Davis".
 // Search for "Emily Davis" in the employees array and display her position.
+
+// let x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name === "Emily Davis").position
+// console.log(x);
+
 
 // List all  positions held by employees.
 // Extract and list all unique values from the position fields across all employees.
@@ -137,11 +149,22 @@ var company = [
 // Find which company "Liam Wilson" works for.
 // Search for "Liam Wilson" in the employees arrays and display the companyName he belongs to.
 
+// let x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Liam Wilson")).companyname
+// console.log(x);
+
+
 // Calculate the average salary of employees in "Tech Solutions".
 // Sum up the salary values of employees in "Tech Solutions" and divide by the number of employees in that company.
+
+// let x = company.find((comp)=> comp.companyname === "Tech Solutions").employees.reduce((sum,emp)=> sum + emp.salary/2,0)
+// console.log(x);
 
 // Find employees who are older than 30.
 // Search through all employees arrays for employees with an age greater than 30 and list their details.
 
 // Count how many employees have an email domain of "datadynamics.com".
 // Check the email field of all employees and count how many contain "datadynamics.com" as the domain.
+
+// let x = company.find((comp)=> comp.employees.find((emp)=> emp.email.includes("datadynamics.com"))).employees.length
+// console.log(x);
+
