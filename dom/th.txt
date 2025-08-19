@@ -1,0 +1,16 @@
+DOM --> DOcument Object Model 
+
+
+To manipulate the DOM, we use the Document Object Model (DOM).
+
+
+identifier :
+1. id -- [uniqui]
+2. class -- [multiple]
+3. name -- [multiple] 
+4. tagName -- [multiple]
+5. querySelector 
+
+
+Event :
+1. onclick 
