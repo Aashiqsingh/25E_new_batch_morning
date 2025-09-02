@@ -18,3 +18,11 @@ const changeRadius = ()=>{
 
     mydiv.style.borderRadius = radius.value
 }
+
+const changeImg = ()=>{
+    let img = document.getElementById("img")
+
+    let mydiv = document.getElementById("mydiv")
+    mydiv.style.backgroundImage = `url(${img.value})`
+    mydiv.style.backgroundSize = "cover"
+}
