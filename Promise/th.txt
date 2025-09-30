@@ -1,0 +1,10 @@
+Promise --> pending---(fullfiled/reject)
+
+Promise --> class 
+
+1. Synchronous -- javascript bydefault
+2. Asynchronous
+      - block sync 
+            - then catch
+      - function sync
+            - async await 

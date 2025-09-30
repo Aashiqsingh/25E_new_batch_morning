@@ -65,7 +65,8 @@ const addUser = () => {
         btn.innerHTML = "DELETE"
         btn.className = "btn btn-danger"
         btn.addEventListener("click",()=>{
-            alert(users[i].id)
+            // alert(users[i].id)
+            tr.remove()
         })
 
         idTd.innerHTML = users[i].id
