@@ -7,6 +7,7 @@ function getData(){
     let promise = new Promise((resolve,reject)=>{
         setTimeout(()=>{
             // resolve("This is our program...");
+            
             reject("Something went wrong...");
         },3000)
     })
