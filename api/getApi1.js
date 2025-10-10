@@ -42,3 +42,8 @@ const getData = async()=>{
     
     
 }
+
+
+let arr2 = ["raj","bhuwan"]
+let arr = [{},{},{}]
+// JSON -- javascript object notation 
